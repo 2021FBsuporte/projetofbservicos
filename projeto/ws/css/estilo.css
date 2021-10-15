@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(216, 245, 243, 0.781);
+}
+label,input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    font-size: 13pt;
+    outline: none;
+    width: 97%;
+}
+form{
+    width: 350px;
+    background-color:rgba(11, 80, 160, 0.3);
+    padding: 20px;
+    margin: 30px auto;
+
+}
+input[type="submit"]{
+    margin-top: 15px;
+    cursor: pointer;
+}
+textarea{
+    width: 338px;
+    height:87px;
+}
+#esquerda{
+    width: 35%;
+    float: left;
+
+}
+#direita{
+    width: 65%;
+    float: left;
+}
+table{
+    width: 95%;
+    margin: 30px auto;
+    background-color: #f7f5f5;
+    border: 1px solid black;
+}
+tr{
+    line-height: 30px;
+}
+tr#titulo{
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    font-size: 13pt;
+}
+td{
+    padding: 0px 5px;
+}
+a{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+.aviso{
+    background-color: red;
+}
